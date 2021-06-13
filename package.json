@@ -1,0 +1,20 @@
+{
+  "name": "electron-atem-connection-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.2",
+    "electron-builder": "^22.11.7"
+  },
+  "dependencies": {
+    "atem-connection": "^2.2.2",
+    "electron-prompt": "^1.6.2"
+  }
+}
